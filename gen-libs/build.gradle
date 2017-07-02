@@ -16,7 +16,7 @@ android {
                 arguments '-DANDROID_PLATFORM=android-21',
                         '-DANDROID_TOOLCHAIN=clang'
                 // explicitly build libs
-                targets 'gmath', 'gperf'
+                targets 'gmath', 'gperf', 'turbojpeg-static'
             }
 
         }
